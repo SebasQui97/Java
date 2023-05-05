@@ -8,7 +8,7 @@ public class Ejercicio3_Frase {
         Scanner read = new Scanner(System.in);
         String phrase;
         
-        System.out.print("Ingresa por favor una frase: ");
+        System.out.print("Por favor introduce una frase: ");
         phrase = read.nextLine();
         
         System.out.println("Frase en mayúscula: " + phrase.toUpperCase());
